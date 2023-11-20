@@ -25,19 +25,19 @@ console.log(secretList);
 // con ciclo while
 // possiamo usare lo stesso procedimento del ciclo for, inserendo pero' all'inizio una costante con il numero di volte che deve eseguire questa operazione
 
-// let i = 0;
+    let i = 0;
 
-// while ( i < names.length){
+    while ( i < names.length){
     // ci creiamo una costante per calcolare i nomi randomici presi dalla costante names per il numero dell'array names
-    // let randomNames = names[Math.floor(Math.random() * names.length)];
+    let randomNames = names[Math.floor(Math.random() * names.length)];
     // facciamo la stessa cosa per i cognomi
-    // let randomSurnames = surnames[Math.floor(Math.random() * surnames.length)];
+    let randomSurnames = surnames[Math.floor(Math.random() * surnames.length)];
     // ci creiamo una costante dove andiamo a prendere i nomi ed i cognomi randomici creati in precedenza per unirli.. aggiungiamo anche uno spazio tra loro con ... + "" +...
-    // let completeList = randomNames + " " + randomSurnames;
+    let completeList = randomNames + " " + randomSurnames;
     // prendiamo la lista randomica appena creata e la inseriamo nell'array vuoto
-//     secretList.push(completeList);
+    secretList.push(completeList);
 
-//     i++;
-// }
+    //  i++; QUESTO VA INSERITO ALLA FINE, ALTRIMENTI AVREMO UN LOOP DI CICLI!!!!
+}
 
-// console.log(secretList);
+console.log(secretList);
