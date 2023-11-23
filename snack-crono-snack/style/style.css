@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.wrapper {
+    margin-bottom: 2rem
+}
+button{
+    font-size: 3rem;
+    margin: 3rem;
+}
+
+span.count{
+    font-size: 3rem;
+}

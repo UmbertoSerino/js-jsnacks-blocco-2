@@ -8,6 +8,7 @@ function createdSquare(number) {
     for (let index = 0; index < number; index++) {
         const squareItem = document.createdElement("div");
         squareItem.classList.add("square");
+        return squareItem;
     }  
 }
 
