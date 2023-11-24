@@ -5,12 +5,13 @@
 }
 
 body{
-    background-color: red;
+    background-color: rgba(8, 0, 255, 0.622);
+    color: white;
 }
 
 
 .square{
     height: 50px;
     width: 50px;
-    background-color: red;
+    background-color: black;
 }
